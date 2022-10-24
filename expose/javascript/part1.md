@@ -1,7 +1,7 @@
-1. The string **value added:** follows by the value stored in **result**
-2. The string **final result:** follows by the value stored in **result**
-3. The string **value added:** follows by the value stored in **result**
+1. values added: 20
+2. final result: 20
+3. value added: 20
 4. It returns an **error** since **result** is declared outside of scope and it will say that no such name exists
-5. The string **values added:** follows by **0** because value of a const variable cannot be changed once assigned 
-6. The string **final result:** follows by **0** because value of a const variable cannot be changed once assigned
-7. 
+5. returns an **error** because the attempt to assign new value to result in line 7 value of a const variable cannot be changed once assigned 
+6. returns an **error** for the same reason as #5
+
